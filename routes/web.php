@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('csv', [
+   'uses' => 'ReaderController@index',
+   'as' => 'csv'
+]);
+
+Route::get('parse', [
+   'uses' => 'ReaderController@parse',
+   'as' => 'parse'
+]);

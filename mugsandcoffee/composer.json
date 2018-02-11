@@ -1,0 +1,17 @@
+{
+    "name": "vagrant/mugsandcoffee",
+    "type": "Library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kenneth Vallejos",
+            "email": "kenn_vall@yahoo.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+       "psr-4": {
+          "MugsandCoffee\\": "src/"
+       }
+    }
+}

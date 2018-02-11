@@ -23,7 +23,8 @@
             "App\\": "app/",
             "Tests\\": "tests/",
             "MugsandCoffee\\": "mugsandcoffee/src/"
-        }
+        },
+        "files": ["mugsandcoffee/src/helpers/Utility.php"]
     },
     "scripts": {
         "post-root-package-install": [

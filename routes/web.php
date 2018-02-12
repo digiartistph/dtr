@@ -24,3 +24,7 @@ Route::get('parse', [
    'uses' => 'ReaderController@parse',
    'as' => 'parse'
 ]);
+
+Route::get('bio', [
+   'uses' => 'ReaderController@test'
+]);
